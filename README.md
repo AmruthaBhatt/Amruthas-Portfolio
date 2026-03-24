@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio Website
 
 A modern, responsive full-stack portfolio website built with vanilla JavaScript, Node.js/Express, and Supabase.
@@ -153,3 +154,7 @@ MIT License - Feel free to use for your portfolio!
 5. Deploy to production
 
 Happy coding! 💻
+=======
+# Amruthas-Portfolio
+People can contact me and connect with me using my portfolio
+>>>>>>> 20b95e26fe27bf835561dfdaf496b5140ff58fdf
