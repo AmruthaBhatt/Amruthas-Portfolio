@@ -1,10 +1,11 @@
 // ===== API Configuration =====
-// Use relative path for API to work on any deployment
-const API_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-    ? 'http://localhost:3000/api'
-    : '/api';
+// Smart API URL detection for localhost vs production
+const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+const API_URL = isDevelopment ? 'http://localhost:3000/api' : '/api';
 
 console.log(`🔌 API URL: ${API_URL}`);
+console.log(`📍 Hostname: ${window.location.hostname}`);
+console.log(`🔧 Environment: ${isDevelopment ? 'Development' : 'Production'}`);
 
 // ===== Smooth Scrolling Function =====
 function scrollToSection(sectionId) {
