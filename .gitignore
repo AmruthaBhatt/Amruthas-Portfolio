@@ -47,3 +47,5 @@ backend/server-old.js
 
 # Documentation files (optional - remove if you want to keep)
 # *.md
+.env
+backend/.env
