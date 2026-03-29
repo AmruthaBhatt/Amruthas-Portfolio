@@ -1,8 +1,6 @@
 {
   "version": 2,
   "public": true,
-  "buildCommand": "npm install",
-  "outputDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false,
   "routes": [
